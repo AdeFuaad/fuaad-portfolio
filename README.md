@@ -4,7 +4,6 @@
 
 This project took me a little over the deadline but I'm proud of what I have accomplished. I have been scared to try media queries to make it optimizable. I used a mock up from a design website as motivation for this project.
 
-
 ## User Story
 
 ```
