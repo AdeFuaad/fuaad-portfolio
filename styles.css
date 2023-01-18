@@ -1,0 +1,230 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --off-focus: rgb(125, 125, 125);
+    --hover: rgb(174, 174, 174);
+    --cream: beige;
+    --blue: rgb(183, 183, 255);
+    --purple: rgb(253, 144, 253);
+    --green: rgb(182, 252, 182);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    margin: 10px 100px;
+    justify-content: space-between;
+}
+
+header p {
+    color: var(--black);
+    margin-left: 35px;
+}
+
+header:hover p {
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+nav ul li a:active {
+    font-size: 17px;
+}
+
+nav ul li a:focus {
+    color: var(--black);
+}
+
+nav ul li:hover a {
+    color: var(--hover);
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--off-focus);
+}
+
+.name {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main {
+    margin: 0 200px;
+    text-align: left;
+}
+
+.bio {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    color: var(--off-focus);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    border-radius: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px 50px 80px;
+    overflow: hidden;
+} 
+
+.card:hover {
+    opacity: 85%;
+    cursor: pointer;
+    transform: scale(100.5%);
+}
+
+.first-card {
+    background-color: var(--cream);
+    border: var(--cream);
+    flex: 1 0 800px;
+    width: 800px;
+}
+
+.second-card {
+    background-color: var(--blue);
+    border: var(--blue);
+    flex: 1 0 750px;
+    width: 750px;
+}
+
+.third-card {
+    background-color: var(--purple);
+    border: var(--purple);
+    flex: 1 0 700px;
+    width: 700px;
+}
+
+.forth-card {
+    background-color: var(--green);
+    border: 1px  var(--green);
+    flex: 1 0 650px;
+    width: 650px;
+}
+
+.card-info {
+    display: block;
+    text-align: left;
+    margin: 40px;
+}
+
+.card-info-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.card-info .tools {
+    font-size: 12px;
+    color: var(--off-focus);
+}
+
+.card-info-name {
+    color: var(--black);
+    font-size: 30px;
+}
+
+.card-img {
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 400px;
+    top: 50px;
+    left: 60px;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-25deg)
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    color: var(--black);
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.about-me img {
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 280px;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-right: 30px;
+    justify-content: center;
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
