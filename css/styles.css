@@ -76,10 +76,6 @@ nav a {
     color: #000;
 }
 
-/* #resume:hover {
-    color: var(--off-focus);
-} */
-
 main {
     padding: 0 200px;
     text-align: center;
@@ -135,8 +131,38 @@ main {
     background-color: var(--blue);
     border: var(--blue);
     flex: 1 0 400px;
-    width: 750px;
+    width: 800px;
+    height: 200px;}
+
+.third-card {
+    background-color: var(--purple);
+    border: var(--purple);
+    flex: 1 0 400px;
+    width: 800px;
+    height: 200px;}
+
+.forth-card {
+    background-color: var(--green);
+    border: 1px  var(--green);
+    flex: 1 0 380px;
+    width: 800px;
+    height: 200px;
 }
+
+/* .first-card {
+    background-color: var(--cream);
+    border: var(--cream);
+    flex: 1 0 400px;
+    width: 800px;
+    height: 200px;
+}
+
+.second-card {
+    background-color: var(--blue);
+    border: var(--blue);
+    flex: 1 0 400px;
+    width: 800px;
+    height: 200px;}
 
 .third-card {
     background-color: var(--purple);
@@ -150,7 +176,7 @@ main {
     border: 1px  var(--green);
     flex: 1 0 380px;
     width: 650px;
-}
+} */
 
 .dev-tools {
     padding-top: 20px;
@@ -342,7 +368,7 @@ footer {
 }
 
 .resume-class:hover {
-    opacity: 70%;
+    opacity: 60%;
 }
 
 .resume-class a {
