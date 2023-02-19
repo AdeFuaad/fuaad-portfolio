@@ -414,29 +414,29 @@ footer {
     .first-card {
         background-color: var(--cream);
         border: var(--cream);
-        flex: 1 0 350px;
-        width: 600px;
+        flex: 1 0 300px;
+        width: 530px;
     }
     
     .second-card {
         background-color: var(--blue);
         border: var(--blue);
-        flex: 1 0 350px;
-        width: 550px;
+        flex: 1 0 300px;
+        width: 530px;
     }
     
     .third-card {
         background-color: var(--purple);
         border: var(--purple);
-        flex: 1 0 350px;
-        width: 500px;
+        flex: 1 0 300px;
+        width: 530px;
     }
     
     .forth-card {
         background-color: var(--green);
         border: 1px  var(--green);
-        flex: 1 0 350px;
-        width: 450px;
+        flex: 1 0 300px;
+        width: 530px;
     }
     
     .dev-tools {
@@ -685,28 +685,28 @@ footer {
     .first-card {
         background-color: var(--cream);
         border: var(--cream);
-        flex: 1 0 300px;
-        width: 500px;
+        flex: 1 0 280px;
+        width: 350px;
     }
     
     .second-card {
         background-color: var(--blue);
         border: var(--blue);
-        flex: 1 0 300px;
-        width: 450px;
+        flex: 1 0 280px;
+        width: 350px;
     }
     
     .third-card {
         background-color: var(--purple);
         border: var(--purple);
-        flex: 1 0 300px;
-        width: 400px;
+        flex: 1 0 250px;
+        width: 350px;
     }
     
     .forth-card {
         background-color: var(--green);
         border: 1px  var(--green);
-        flex: 1 0 350px;
+        flex: 1 280px;
         width: 350px;
     }
     
@@ -733,10 +733,10 @@ footer {
     .card-img {
         position: relative;
         display: flex;
-        width: 800px;
-        height: 400px;
-        top: -300px;
-        left: 200px;
+        width: 300px;
+        height: 200px;
+        top: -200px;
+        left: 170px;
         border-radius: 40px;
         justify-content: center;
         align-items: center;
@@ -819,21 +819,21 @@ footer {
         background-color: var(--blue);
         border: var(--blue);
         flex: 1 0 300px;
-        width: 380px;
+        width: 400px;
     }
     
     .third-card {
         background-color: var(--purple);
         border: var(--purple);
-        flex: 1 0 350px;
-        width: 340px;
+        flex: 1 0 300px;
+        width: 400px;
     }
     
     .forth-card {
         background-color: var(--green);
         border: 1px  var(--green);
-        flex: 1 0 350px;
-        width: 300px;
+        flex: 1 0 300px;
+        width: 400px;
     }
     
     .dev-tools {
@@ -859,14 +859,14 @@ footer {
     .card-img {
         position: relative;
         display: flex;
-        width: 800px;
-        height: 400px;
-        top: -300px;
+        width: 400px;
+        height: 220px;
+        top: -210px;
         left: 200px;
         border-radius: 40px;
         justify-content: center;
         align-items: center;
-        transform: rotate(-25deg)
+        transform: rotate(-20deg)
     }  
 
     .about-me img {
@@ -897,29 +897,29 @@ footer {
     .first-card {
         background-color: var(--cream);
         border: var(--cream);
-        flex: 1 0 350px;
+        flex: 1 0 300px;
         width: 350px;
     }
     
     .second-card {
         background-color: var(--blue);
         border: var(--blue);
-        flex: 1 0 350px;
-        width: 320px;
+        flex: 1 0 300px;
+        width: 350px;
     }
     
     .third-card {
         background-color: var(--purple);
         border: var(--purple);
-        flex: 1 0 350px;
-        width: 300px;
+        flex: 1 0 300px;
+        width: 350px;
     }
     
     .forth-card {
         background-color: var(--green);
         border: 1px  var(--green);
-        flex: 1 0 350px;
-        width: 290px;
+        flex: 1 0 300px;
+        width: 350px;
     }
     
     .dev-tools {
@@ -942,7 +942,7 @@ footer {
         display: flex;
         width: 400px;
         height: 200px;
-        top: -170px;
+        top: -210px;
         left: 160px;
         border-radius: 40px;
         justify-content: center;
@@ -967,20 +967,4 @@ footer {
         text-align: center;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
