@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <title>Fuaad Shobambi Portfolio</title>
 </head>
 <body>
     <header>
@@ -27,6 +27,10 @@
                 <li>
                     <a href="#contact">Contact</a>
                 </li>
+                <li class="resume-class">
+                    <a id="resume" href="data/resume.docx">Resume</a>
+                    <img src="images/download-svgrepo-com.svg" alt="Download my resume!">
+                </li>
             </ul>
         </nav>
     </header>
@@ -34,7 +38,8 @@
     <main>
         <p class="name">Hi, I'm Fuaad</p>
 
-        <p class="bio">I'm a full-stack developer who cares about solving complex problems by deeply understanding the people around me and the worlds they live in.</p>
+        <p class="bio">I'm a front-end developer who specializes in crafting seamless user experiences and intuitive interfaces. My expertise in various front-end languages and frameworks allows me to create responsive, dynamic, and pixel-perfect websites.
+        </p>
 
         <section id="projects">
             <p class="project">Project</p>
@@ -49,7 +54,10 @@
                         <p class="card-info-name">LineLogic</p>
     
                         <div class="dev-tools">
-                            <img src="images/arrow.svg" alt="">
+                            <div class="github">
+                                <img src="images/arrow.svg" alt="">
+                            <img src="images/github-svgrepo-com.svg" alt="">
+                            </div>
                             <p class="tools">HTML</p>
                             <p class="tools">TAILWIND CSS</p>
                             <p class="tools">JAVASCRIPT [JQUERY]</p>
@@ -62,38 +70,55 @@
             
             </div>
 
+            <div class="first-github-links github-links">
+                <a href="https://github.com/AdeFuaad/LineLogic">LineLogic Repo</a> 
+                <img src="images/github-svgrepo-com.svg" alt="">
+            </div>
+
             <div class="second-card card">
-                <a href="http://github.com/adefuaad" alt="project 2">
+                <a href="https://adefuaad.github.io/weatherApp/" alt="project 2">
                     <div class="card-info">
                         <svg class="card-info-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                             <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306Z"/>
                           </svg>
     
-                        <p class="card-info-name">Blog Landing Page</p>
+                        <p class="card-info-name">Weather Application</p>
                         
                         <div class="dev-tools">
-                            <img src="images/arrow.svg" alt="">
+                            <div class="github">
+                                <img src="images/arrow.svg" alt="">
+                                <img src="images/github-svgrepo-com.svg" alt="">
+                            </div>
                             <p class="tools">HTML</p>
                             <p class="tools">CSS</p>
                             <p class="tools">JAVASCRIPT</p>
+                            <p class="tools">OPENWEATHERMAP API</p>
                         </div>
                     </div>
                 </a>
 
-                <img class="card-img" src="images/1963b842881b7fa5bc95d36d9c70bafd.jpg" alt="">
+                <img class="card-img" src="images/mock.png" alt="weather app">
+            </div>
+
+            <div class="second-github-links github-links">
+                <a href="https://github.com/AdeFuaad/weatherApp">Weather App Repo</a> 
+                <img src="images/github-svgrepo-com.svg" alt="">
             </div>
 
             <div class="third-card card">
-                <a href="http://github.com/adefuaad" alt="project 3">
+                <a href="https://adefuaad.github.io/password-generator/" alt="project 3">
                     <div class="card-info">
                         <svg class="card-info-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                             <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm5.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318Z"/>
                           </svg>
     
-                        <p class="card-info-name">Blog Landing Page</p>
+                        <p class="card-info-name">Password Generator</p>
     
                         <div class="dev-tools">
-                            <img src="images/arrow.svg" alt="">
+                            <div class="github">
+                                <img src="images/arrow.svg" alt="">
+                                <img src="images/github-svgrepo-com.svg" alt="">
+                            </div>
                             <p class="tools">HTML</p>
                             <p class="tools">CSS</p>
                             <p class="tools">JAVASCRIPT</p>
@@ -101,29 +126,43 @@
                     </div>
                 </a>
 
-                <img class="card-img" src="images/1963b842881b7fa5bc95d36d9c70bafd.jpg" alt="">
+                <img class="card-img" src="images/passgen.png" alt="">
+            </div>
+
+            <div class="third-github-links github-links">
+                <a href="https://github.com/AdeFuaad/password-generator">Password Generator Repo</a> 
+                <img src="images/github-svgrepo-com.svg" alt="">
             </div>
 
             <div class="forth-card card">
-                <a href="http://github.com/adefuaad" alt="project 4">
+                <a href="https://adefuaad.github.io/readme-generator/" alt="project 4">
                     <div class="card-info">
                         <svg class="card-info-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                             <path d="M6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218Z"/>
                             <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm5.519 5.057c.22-.352.439-.703.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265Z"/>
                           </svg>
     
-                        <p class="card-info-name">Blog Landing Page</p>
+                        <p class="card-info-name">ReadMe Generator</p>
     
                         <div class="dev-tools">
-                            <img src="images/arrow.svg" alt="">
+                            <div class="github">
+                                <img src="images/arrow.svg" alt="">
+                                <img src="images/github-svgrepo-com.svg" alt="">
+                            </div>
                             <p class="tools">HTML</p>
                             <p class="tools">CSS</p>
                             <p class="tools">JAVASCRIPT</p>
+                            <p class="tools">NODE JS</p>
                         </div>
                     </div>
                 </a>
 
-                <img class="card-img" src="images/1963b842881b7fa5bc95d36d9c70bafd.jpg" alt="">
+                <img class="card-img" src="images/node.png" alt="">
+            </div>
+
+            <div class="forth-github-links github-links">
+                <a href="https://github.com/AdeFuaad/readme-generator">Readme Generator Repo</a> 
+                <img src="images/github-svgrepo-com.svg" alt="">
             </div>
         </section>
 
@@ -132,16 +171,16 @@
 
             <div class="about-me">
                 <img class="about-me-img" src="images/IMG_1717.jpg" alt="Fuaad Shobambi">
+                <b></b>
 
-                <p class="about">Hello there! I'm Fuaad Shobambi a Nigerian-born, 
-                    Toronto-based Full-Stack Web Developer with a Bachelor's degree 
-                    in Computer Science, a highly skilled and versatile technology 
-                    professional with a passion for building innovative and 
-                    user-friendly web and mobile applications. With a strong foundation 
-                    in computer science and a proven track record of success in the 
-                    industry, this developer is well-equipped to design, develop, 
-                    and deliver high-quality, robust software solutions that meet the 
-                    needs of businesses and end-users alike.</p>
+                <p class="about">Hello there! I'm <span class="bold-text">Fuaad Shobambi</span> a Nigerian-born, 
+                    Toronto-based Front-End Web Developer with a Bachelor's degree 
+                    in <span class="bold-text">Computer Science</span>, passionate for building innovative and 
+                    <span class="bold-text">user-friendly web applications</span>. 
+                    <br>
+                    Coming from a background of having an Artist and Sculptor as a father, I have always had a nack for having a visually pleasing and functional work.
+                    <br>
+                    On days that do not consist of debugging, I enjoy having 60 minutes hypertrophic workouts or listening to Afro-beats while cleaning and cooking.</p>
             </div>
         </section>
 
