@@ -502,6 +502,11 @@ footer {
         font-size: 14px;
     }
 
+    .resume-class {
+        margin-top: 5px;
+        display: flex;
+    }
+
     #about {
         display: flex;
         flex-direction: column;
@@ -613,6 +618,11 @@ footer {
         color: var(--white);
         justify-content: center;
         align-items: center;
+    }
+
+    .resume-class img {
+        max-width: 16px;
+        max-height: 16px;
     }
 }
   
@@ -757,6 +767,11 @@ footer {
         color: var(--white);
         justify-content: center;
         align-items: center;
+    }
+
+    .resume-class img {
+        max-width: 13px;
+        max-height: 13px;
     }
 }
 
