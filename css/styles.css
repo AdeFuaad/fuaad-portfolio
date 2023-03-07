@@ -699,7 +699,7 @@ footer {
     .third-card {
         background-color: var(--purple);
         border: var(--purple);
-        flex: 1 0 250px;
+        flex: 1 0 310px;
         width: 350px;
     }
     
@@ -799,6 +799,20 @@ footer {
         max-width: 13px;
         max-height: 13px;
     }
+
+    .contact-me svg {
+        width: 18px;
+        height: 18px;
+        padding: 0 30px;
+        fill: #000;
+    }
+    
+    .contact-me svg:hover {
+        width: 18px;
+        height: 18px;
+        padding: 0 30px;
+        fill: var(--hover);
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -885,6 +899,20 @@ footer {
         padding: 0 50px;
         text-align: center;
     }
+
+    .contact-me svg {
+        width: 18px;
+        height: 18px;
+        padding: 0 30px;
+        fill: #000;
+    }
+    
+    .contact-me svg:hover {
+        width: 18px;
+        height: 18px;
+        padding: 0 30px;
+        fill: var(--hover);
+    }
 }
 
 @media screen and (max-width: 445px) {
@@ -965,6 +993,20 @@ footer {
     main {
         padding: 0 50px;
         text-align: center;
+    }
+
+    .contact-me svg {
+        width: 18px;
+        height: 18px;
+        padding: 0 30px;
+        fill: #000;
+    }
+    
+    .contact-me svg:hover {
+        width: 18px;
+        height: 18px;
+        padding: 0 30px;
+        fill: var(--hover);
     }
 }
 
